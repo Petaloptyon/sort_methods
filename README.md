@@ -48,6 +48,7 @@ This project implements and compares two popular sorting algorithms: **Selection
    - The program prints the results of sorting, including whether the array is correctly sorted, the number of comparisons, and the number of swaps.
 
 ---
+
 ## Functions Overview
 
  - generate_array(int n): Generates an array of size n filled with random integers.
@@ -76,6 +77,45 @@ This project implements and compares two popular sorting algorithms: **Selection
 
  - edge_case(int n): Tests the sorting algorithms on edge cases (already sorted and reverse-sorted arrays).
 
+---
+---
+## Example of output
+
+Enter the size of the array: 10
+
+SORT ########################## 0
+Quick sort:
+is sorted: 1
+    compares: 45
+    swaps: 7
+
+Prime sort:
+is sorted: 1
+    compares: 45
+    swaps: 5
+#################################
+
+#######   EDGE CASE   #######
+is arrays sorted: quick sort: 1; prime sort: 1
+Quick sort for sorted array:
+is sorted: 1
+    compares: 45
+    swaps: 0
+Quick sort for sorted unwraped array:
+is sorted: 1
+    compares: 45
+    swaps: 5
+
+Prime sort for sorted array:
+is sorted: 1
+    compares: 45
+    swaps: 0
+Prime sort for sorted unwraped array:
+is sorted: 1
+    compares: 45
+    swaps: 5
+---
+---
 ## Usage
 
 1. Clone the repository:
