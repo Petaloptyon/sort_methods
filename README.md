@@ -78,9 +78,9 @@ This project implements and compares two popular sorting algorithms: **Selection
  - edge_case(int n): Tests the sorting algorithms on edge cases (already sorted and reverse-sorted arrays).
 
 ---
----
-## Example of output
 
+## Example of output
+```
 Enter the size of the array: 10
 
 SORT ########################## 0
@@ -114,8 +114,10 @@ Prime sort for sorted unwraped array:
 is sorted: 1
     compares: 45
     swaps: 5
+```
+
 ---
----
+
 ## Usage
 
 1. Clone the repository:
