@@ -1,8 +1,3 @@
-# sort_methods
-This repository contains a C program that implements and compares two sorting algorithms: Selection Sort (prime_sort) and Quick Sort (quick_sort)
-
-
-
 # Sorting Algorithms Comparison
 
 This project implements and compares two popular sorting algorithms: **Selection Sort** and **Quick Sort**. The program generates random arrays, sorts them using both algorithms, and provides detailed performance metrics, including the number of comparisons and swaps. It also includes functions to validate the correctness of the sorting results and handles edge cases.
