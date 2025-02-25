@@ -46,31 +46,31 @@ This project implements and compares two popular sorting algorithms: **Selection
 
 ## Functions Overview
 
- - generate_array(int n): Generates an array of size n filled with random integers.
+ - `generate_array(int n)`: Generates an array of size n filled with random integers.
 
- - copy_arr(int *src, int n): Creates a copy of the array src.
+ - `copy_arr(int *src, int n)`: Creates a copy of the array src.
 
- - swap(int *arr, int i_1, int i_2): Swaps elements at indices i_1 and i_2 in the array arr.
+ - `swap(int *arr, int i_1, int i_2)`: Swaps elements at indices i_1 and i_2 in the array arr.
 
- - is_less(int a, int b): Compares two integers and returns 1 if a < b, otherwise 0.
+ - `is_less(int a, int b)`: Compares two integers and returns 1 if a < b, otherwise 0.
 
- - prime_sort(int *arr, int n): Sorts the array arr using Selection Sort.
+ - `prime_sort(int *arr, int n)`: Sorts the array arr using Selection Sort.
 
- - quick_sort(int *arr, int l, int r): Sorts the array arr using Quick Sort.
+ - `quick_sort(int *arr, int l, int r)`: Sorts the array arr using Quick Sort.
 
- - is_in_order(int *sorted, int n): Checks if the array sorted is in non-decreasing order.
+ - `is_in_order(int *sorted, int n)`: Checks if the array sorted is in non-decreasing order.
 
- - is_all_included(int *init, int *sorted, int n): Checks if the sorted array contains the same elements as the original array.
+ - `is_all_included(int *init, int *sorted, int n)`: Checks if the sorted array contains the same elements as the original array.
 
- - is_correct_sort(int *init, int *sorted, int n): Combines is_in_order and is_all_included to validate sorting.
+ - `is_correct_sort(int *init, int *sorted, int n)`: Combines is_in_order and is_all_included to validate sorting.
 
- - print_array(int *a, int n): Prints the elements of the array a.
+ - `print_array(int *a, int n)`: Prints the elements of the array a.
 
- - sort_generated_array(int n, int idx): Generates an array, sorts it using both algorithms, and prints the results.
+ - `sort_generated_array(int n, int idx)`: Generates an array, sorts it using both algorithms, and prints the results.
 
- - unwrap_array(int *arr, int n): Reverses the order of elements in the array arr.
+ - `unwrap_array(int *arr, int n)`: Reverses the order of elements in the array arr.
 
- - edge_case(int n): Tests the sorting algorithms on edge cases (already sorted and reverse-sorted arrays).
+ - `edge_case(int n)`: Tests the sorting algorithms on edge cases (already sorted and reverse-sorted arrays).
 
 ---
 
